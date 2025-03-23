@@ -32,6 +32,7 @@ table {
 
 table th {
     background-color: rgb(191, 224, 255);
+    font-weight: bold;
 }
 
 table, th, td {
@@ -40,13 +41,17 @@ table, th, td {
     padding: 10px;
 }
 
+#keterampilan {
+    font-style:oblique;
+}
+
 #keterampilan ul {
     font-size: 18px; 
     padding-left: 30px;
 }
 
 #keterampilan ul li {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 #keterampilan ul li::marker {
@@ -60,8 +65,8 @@ table, th, td {
 
 .fprofil {
     float: left;
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     margin: 0px 15px 12px 0px ;
     border-radius: 50%;
     border: #4f4f4f solid;
